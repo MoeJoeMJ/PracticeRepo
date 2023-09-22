@@ -5,8 +5,6 @@ public class AdminUser extends RegularUser {
         super(username,password);
     }
 
-
-
     @Override
     public void getOption(Scanner scanner){
         while(true) {
