@@ -5,11 +5,7 @@ public class AdminUser extends RegularUser {
         super(username,password);
     }
 
-    public void displayMenu(){
-        System.out.println("1. View Details");
-        System.out.println("2. Edit Details");
-        System.out.println("3. Manage Users");
-    }
+
 
     @Override
     public void getOption(Scanner scanner){
