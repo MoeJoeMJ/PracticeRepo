@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
+//Admin inherits RegularUser
 public class AdminUser extends RegularUser {
     public AdminUser(String username, String password){
         super(username,password);
     }
 
+    // Overriding abstract method
     @Override
     public void getOption(Scanner scanner){
         while(true) {
@@ -30,6 +32,7 @@ public class AdminUser extends RegularUser {
         }
     }
 
+    //Additional access for Admin that isn't available for regular users
     public void manageUsers(){
         System.out.println(getUsername() + " can manage other users as well");
     }

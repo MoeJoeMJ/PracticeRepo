@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
+// Regular User inherits User and implements UserActions interface
 public class RegularUser extends User implements UserActions{
 
     public RegularUser(String username, String password) {
         super(username, password);
     }
 
+    // Overriding methods in UserActions interface
     @Override
     public void viewProfile() {
         System.out.println(getUsername() + " can view details");
@@ -16,6 +18,7 @@ public class RegularUser extends User implements UserActions{
         System.out.println(getUsername() + " can edit details");
     }
 
+    // Overriding abstract method
     @Override
     public void getOption(Scanner scanner) {
         while(true) {
