@@ -6,7 +6,7 @@
     - with type parameter, not just inside parenthesis
     - with specific type, not just inside parenthesis
 
-# (CONCURRENCY)[https://docs.oracle.com/javase/tutorial/essential/concurrency/threads.html]
+# [CONCURRENCY](https://docs.oracle.com/javase/tutorial/essential/concurrency/threads.html)
 ## PROCESSES
 - has self contained execution environment, private set of resources, own memory space.
 - Processes are synonymous with programs and applications
