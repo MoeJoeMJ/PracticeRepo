@@ -1,0 +1,29 @@
+# Concurrency all over again - [Referred Jakob Jenkov's site](https://jenkov.com/tutorials/java-concurrency/index.html)
+## Multithreading 
+- A thread is like a separate CPU executing your application
+- multithreaded application is like an application that has multiple CPUs executing different parts of the code at the same time.
+- Multitasking
+    - Computers could execute multiple programs at the same time
+    -  The single CPU was shared between the programs. 
+    - The operating system would switch between the programs running, executing each of them for a little while before switching.
+- Multithreading 
+    - mean that you could have multiple threads of execution inside the same program
+    - A thread of execution can be thought of as a CPU executing the program.
+- Concurrency models
+    - shared state concurrency model - The first Java concurrency model assumed that multiple threads executing within the same application would also share objects.
+    - Separate state concurrency model - The threads do not share any objects or data. This avoids a lot of the concurrent access problems
+- Multithreading benefits
+    - Better CPU Utilization
+    - More Responsive Programs
+      -  When a request arrives, it processes it and then resumes listening. However, if a request takes a long time to process, new clients cannot send requests during that processing time.
+      - An alternate design would be for the listening thread to pass the request to a worker thread, and return to listening immediatedly. The worker thread will process the request and send a reply to the client.
+    - More Fair Distribution of CPU Resources
+        - By dividing the CPU time between multiple threads and switching between the threads, then the CPU can share its execution time more fairly between several requests. 
+        - Then even if one of the requests is slow, other requests that are faster to process can be executed concurrently with the slower request. 
+        - Of course this means that executing the slow request will be even slower, since it will not have the CPU solely allocated to processing just it. 
+        - However, the other requests will have to wait shorter time to be processed.
+        - In the event that there is only the slow request to process, then the CPU can still be solely allocated to the slow task.
+- Multithreading Costs
+    - More complex design
+    - Context Switching Overhead - When a CPU switches from executing one thread to executing another, the CPU needs to save the local data, program pointer etc. of the current thread, and load the local data, program pointer etc. of the next thread to execute. This switch is called a "context switch".
+    - Increased Resource Consumption
