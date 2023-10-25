@@ -28,7 +28,7 @@
 ## Same threaded system
 - a single-threaded systems are scaled out to N single-threaded systems
 - difference between a same-threaded and a traditional multi-threaded system is that the threads in a same-threaded system do not share state
-## Vitual thread
+## Virtual thread
 - much more lightweight in terms of how many resources (RAM) they demand from the system to run.
 - Thread.ofVirtual().start(runnable)
 - mounted to platform threads
