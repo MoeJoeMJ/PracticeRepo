@@ -22,4 +22,3 @@
 - may pass the copy but not the variable itself
 - Objects are stored on the heap no matter what
 - but reference to objects are stored on the thread stack
-- 
