@@ -1,3 +1,5 @@
+package UserManagement;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,9 +7,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter your choice:\n1.Admin\n2.RegularUser\n3.Exit");
+            System.out.println("Enter your choice:\n1.Admin\n2.UserManagement.RegularUser\n3.Exit");
             int choice = scanner.nextInt();
             scanner.nextLine();
+
 
             switch (choice) {
                 case 1: {
@@ -15,8 +18,8 @@ public class Main {
                     String username = scanner.nextLine();
                     System.out.println("Enter your password:");
                     String password = scanner.nextLine();
-                    AdminUser admin = new AdminUser(username, password); // Creates an AdminUser object
-                    admin.getOption(scanner); // Calls getOption method from AdminUser class
+                    AdminUser admin = new AdminUser(username, password); // Creates an UserManagement.AdminUser object
+                    admin.getOption(scanner); // Calls getOption method from UserManagement.AdminUser class
                     break;
                 }
                 case 2: {
@@ -24,8 +27,8 @@ public class Main {
                     String username = scanner.nextLine();
                     System.out.println("Enter your password:");
                     String password = scanner.nextLine();
-                    RegularUser regular = new RegularUser(username, password); // Creates an RegularUser Object
-                    regular.getOption(scanner); // Calls getOption from RegularUser class
+                    RegularUser regular = new RegularUser(username, password); // Creates an UserManagement.RegularUser Object
+                    regular.getOption(scanner); // Calls getOption from UserManagement.RegularUser class
                     break;
                 }
                 case 3: {

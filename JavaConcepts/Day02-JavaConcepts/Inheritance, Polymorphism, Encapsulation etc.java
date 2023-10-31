@@ -1,4 +1,3 @@
-
 // MULTI_LEVEL INHERITANCE
 
 // Parent class

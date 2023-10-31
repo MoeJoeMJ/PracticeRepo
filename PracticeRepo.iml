@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/JavaConcepts/Day23" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day10-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day11-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day12-GenericsAndDataStructures" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day13-GenericsAndSerialization" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day01-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day02-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day03-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day04-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day05-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day06-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day07-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day08-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day09-JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day14-GenericsAndThread" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day15-SerializationAndConcurrency" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day16-Multithreading" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day17" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day18" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day19" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day20" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day21" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day22" />
+    </content>
+    <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

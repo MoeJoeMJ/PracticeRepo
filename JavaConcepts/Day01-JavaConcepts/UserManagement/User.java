@@ -1,6 +1,8 @@
+package UserManagement;
+
 import java.util.Scanner;
 
-//Defined an abstract class for User
+//Defined an abstract class for UserManagement.User
 abstract class User {
     private String username;
     private String password;

@@ -1,13 +1,17 @@
+package UserManagement;
+
+import UserManagement.User;
+
 import java.util.Scanner;
 
-// Regular User inherits User and implements UserActions interface
-public class RegularUser extends User implements UserActions{
+// Regular UserManagement.User inherits UserManagement.User and implements UserManagement.UserActions interface
+public class RegularUser extends User implements UserActions {
 
     public RegularUser(String username, String password) {
         super(username, password);
     }
 
-    // Overriding methods in UserActions interface
+    // Overriding methods in UserManagement.UserActions interface
     @Override
     public void viewProfile() {
         System.out.println(getUsername() + " can view details");

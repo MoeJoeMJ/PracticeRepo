@@ -1,28 +1,28 @@
-class ClassA {
-    public ClassA() {
-        System.out.println("From ClassA's Constructor"); // Gets printed first
+class ParentClass {
+    public ParentClass() {
+        System.out.println("From ParentClass's Constructor"); // Gets printed first
     }
 }
 
-class ClassB extends ClassA {
-    public ClassB() {
-        System.out.println("From ClassB's Default Constructor"); // Implicit super() statement gets executed and calls the ClassA's constructor
+class ChildClass extends ParentClass {
+    public ChildClass() {
+        System.out.println("From ChildClass's Default Constructor"); // Implicit super() statement gets executed and calls the ParentClass's constructor
     }
-    public ClassB(int n) {
+    public ChildClass(int n) {
         this();
-        System.out.println("From ClassB's Parameterised Constructor"); // this() executes first and calls the ClassB's default constructor
+        System.out.println("From ChildClass's Parameterised Constructor"); // this() executes first and calls the ChildClass's default constructor
     }
 }
 
 public class ImplicitFirstStatement {
     public static void main(String[] args) {
-        ClassB classB = new ClassB(6); // Calls the Parameterised Constructor
+        ChildClass childClass = new ChildClass(6); // Calls the Parameterised Constructor
     }
 }
 
 /*
 Output:
-        From ClassA's Constructor
-        From ClassB's Default Constructor
-        From ClassB's Parameterised Constructor
+        From ParentClass's Constructor
+        From ChildClass's Default Constructor
+        From ChildClass's Parameterised Constructor
 */
