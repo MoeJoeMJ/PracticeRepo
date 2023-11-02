@@ -15,7 +15,6 @@ public class FileHandling {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
 
