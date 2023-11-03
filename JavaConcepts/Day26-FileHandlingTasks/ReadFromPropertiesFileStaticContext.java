@@ -5,7 +5,7 @@ import java.util.Properties;
 public class ReadFromPropertiesFileStaticContext {
     static {
         try {
-            InputStream inputStream = ReadFromPropertiesFileStaticContext.class.getResourceAsStream("inStream parameter is null");
+            InputStream inputStream = ReadFromPropertiesFileStaticContext.class.getResourceAsStream("MyProperties.properties");
             Properties properties = new Properties();
             properties.load(inputStream);
         }
