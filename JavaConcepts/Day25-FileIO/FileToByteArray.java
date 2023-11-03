@@ -8,6 +8,9 @@ public class FileToByteArray {
         try {
             Path path = Paths.get("JavaConcepts/Day24/FileHandling.java");
             byte[] byteArr = Files.readAllBytes(path);
+            for (byte b : byteArr) {
+                System.out.print((char)b);
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

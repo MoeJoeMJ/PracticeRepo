@@ -3,18 +3,21 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadFromPropertiesFile {
-    public static void loadProperties(String fileName) {
-        Properties properties = new Properties();
+    private static Properties properties = null;
+    static  {
         try {
-            FileInputStream fileInputStream = new FileInputStream(fileName);
+            FileInputStream fileInputStream = new FileInputStream("MyProperties.properties");
+            properties = new Properties();
             properties.load(fileInputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
+    public static String loadProperties(String key) {
+        return properties.getProperty(key);
+    }
 
     public static void main(String[] args) {
-        String fileName = "MyProperties.properties";
-        loadProperties(fileName);
+        System.out.println(loadProperties("id"));
     }
 }

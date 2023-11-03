@@ -7,10 +7,9 @@ public class ReadFileLineByLine {
         try {
             FileReader fileReader = new FileReader("MyFile.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-            String line = bufferedReader.readLine();
-            while (line != null) {
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
-                line = bufferedReader.readLine();
             }
             bufferedReader.close();
         } catch (IOException e) {

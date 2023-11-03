@@ -3,10 +3,10 @@ import java.io.File;
 public class PrintFilesInDirectory {
     public static void main(String[] args) {
         File directory = new File("JavaConcepts/Day24");
-        File[] files = directory.listFiles();
+        String[] files = directory.list();
         if (files != null) {
-            for (File file : files) {
-                System.out.println(file.getName());
+            for (String file : files) {
+                System.out.println(file);
             }
         }
     }
