@@ -3,8 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/JavaConcepts/Day25-FileIO" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/JavaConcepts/Day26-FileHandlingTasks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/KotlinTourPractice" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day10-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day11-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day12-GenericsAndDataStructures" />
@@ -29,8 +29,12 @@
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day22" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day23" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day24" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day25-FileIO" />
+      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day26-FileHandlingTasks" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
