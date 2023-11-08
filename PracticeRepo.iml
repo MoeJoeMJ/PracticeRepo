@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Basics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/KotlinTourPractice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/KotlinBootcamp" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day10-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day11-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day12-GenericsAndDataStructures" />
