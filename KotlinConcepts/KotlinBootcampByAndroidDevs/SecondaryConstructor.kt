@@ -6,6 +6,7 @@ class MyClass(val id: Int, val name: String, age: Int = getAge()) {
     constructor(): this(3) {
         println("From no arg secondary constructor")
     }
+
 }
 
 var getAge: () -> Int = {
