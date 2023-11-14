@@ -9,7 +9,7 @@ class TapWater : WaterSupply(false) {
 
 class ShopWater : WaterSupply(true)
 
-class Aquarium<out T: WaterSupply>(val waterSupply: T) {
+class Aquarium<T: WaterSupply>(val waterSupply: T) {
     fun addWater(cleaner: WaterCleaner<T>) {
         if (!waterSupply.isClean) {
             cleaner.clean(waterSupply)
@@ -28,8 +28,9 @@ class TapWaterCleaner(): WaterCleaner<TapWater> {
     }
 
 }
-fun addItem(aquarium: Aquarium<WaterSupply>) {
+fun addItem(aquarium: Aquarium<*>): Aquarium<*> {
     println("Item added")
+    return aquarium
 }
 
 

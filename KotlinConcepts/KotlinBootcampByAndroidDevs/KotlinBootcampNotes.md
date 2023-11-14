@@ -24,3 +24,23 @@
 - Inheritance subclass must declare the superclass properties explicitly if there’s no default parameter
 - **Destructuring** -  If you don't need one or more of the properties, you can skip them by using `_` instead of a variable name, as shown in the code below. `val (rock, _, diver) = d5`
 - Can't modify using for-each loop. Since indices is initialized at the first time, so the indices of the forEach operation is never changed after you remove element from a List, but size() is changed.
+- Marking a function as “**inline**” means, every time the function is called, the compiler will change the code to replace the lambda with the instructions inside the lambda.
+
+If `myWith()` in the above example is marked with `inline`:
+
+```
+inline myWith(fish.name) {
+    capitalize()
+}
+
+```
+
+it is transformed into a direct call:
+
+```
+// with myWith() inline, this becomes
+fish.name.capitalize()
+```
+
+- **inlining** large functions does increase your code size, so it's best used for simple functions that are used many times like `myWith()`
+- **Single Abstract Method** You can instantiate, override and make a call to a SAM with one line of code, using the pattern: `Class.singleAbstractMethod { lambda_of_override }`
