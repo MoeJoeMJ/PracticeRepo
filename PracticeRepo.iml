@@ -31,15 +31,6 @@
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day25-FileIO" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day26-FileHandlingTasks" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task1-KotlinTourPractice" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task2-Basics" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task3-KotlinBootcampByUdacity" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task4-KotlinBootcampByAndroidDevs" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task5-KotlinConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task6-ClassesAndObjects" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task7-KotlinByExample" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task8-Koans" />
-      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task9-Collections" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
