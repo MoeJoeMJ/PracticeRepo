@@ -13,6 +13,7 @@
 - The difference between the two functions is that `**fold**()` takes an initial value and uses it as the accumulated value on the first step, whereas the first step of `**reduce**()` uses the first and the second elements as operation arguments on the first step.
 - **List specific operations** - `numbers.getOrNull(index), numbers.subList(3, 6), numbers.indexOf(2),`
 
+
 **add** - `numbers.add(1, "two")`,
 
 **update** - `numbers[1] = "two”` ,

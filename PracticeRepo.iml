@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Task6-ClassesAndObjects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Task10-ScopeFunctionsAndTimeMeasurement" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day10-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day11-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day12-GenericsAndDataStructures" />
@@ -36,10 +36,14 @@
       <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task3-KotlinBootcampByUdacity" />
       <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task4-KotlinBootcampByAndroidDevs" />
       <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task5-KotlinConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task6-ClassesAndObjects" />
       <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task7-KotlinByExample" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task8-Koans" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task9-Collections" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.9.0" level="project" />
   </component>
 </module>
