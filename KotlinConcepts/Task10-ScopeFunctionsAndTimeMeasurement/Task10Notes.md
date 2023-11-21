@@ -3,18 +3,6 @@
 ## **SCOPE FUNCTIONS**
 
 - They can make your code more concise and readable.
-- There are five of them: `[let](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/let.html)`, `[run](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/run.html)`, `[with](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/with.html)`, `[apply](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/apply.html)`, and `[also](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/also.html)`. Basically, these functions all perform the same action: execute a block of code on an object. What's different is how this object becomes available inside the block and what the result of the whole expression is.
--
-
-
-    | Function | Object reference | Return value | Is extension function |
-    | --- | --- | --- | --- |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/let.html | it | Lambda result | Yes |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/run.html | this | Lambda result | Yes |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/run.html | - | Lambda result | No: called without the context object |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/with.html | this | Lambda result | No: takes the context object as an argument. |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/apply.html | this | Context object | Yes |
-    | https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/also.html | it | Context object | Yes |
 - The **return value** of `apply` and `also` is the context object itself. Hence, they can be included into call chains as ***side steps.***
 - `let`, `run`, and `with` return the lambda result. So you can use them when assigning the result to a variable, chaining operations on the result, and so on.
 - **let**
