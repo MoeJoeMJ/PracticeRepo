@@ -1,24 +1,5 @@
 ///////////////////////////CONSTRUCTORS CAN BE OVERLOADED///////////////////////////////////////////////////
 
-class ConstructorOverloading {
-    int variable;
-    public ConstructorOverloading() {
-        this.variable = 1;
-    }
-    public ConstructorOverloading(int variable) {
-        this.variable = variable;
-    }
-}
-public class Main {
-    public static void main(String[] args) {
-       ConstructorOverloading constructorOverload = new ConstructorOverloading(9);
-       ConstructorOverloading constructorOverload1 = new ConstructorOverloading();
-       System.out.println(constructorOverload.variable);
-       System.out.println(constructorOverload1.variable);
-        }
-    }
-
-
 
 ////////////////////////////ABSTRACT CLASSES CAN HAVE MULTIPLE CONSTRUCTORS///////////////////////////////////
 

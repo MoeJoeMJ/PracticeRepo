@@ -1,7 +1,6 @@
 abstract class AbstractClass {
 
 }
-
 public class AbstractClassExtendingObjectClass extends AbstractClass {
     public static void main(String[] args) {
 

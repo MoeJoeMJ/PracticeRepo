@@ -3,34 +3,23 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Task10-ScopeFunctionsAndTimeMeasurement" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day10-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day11-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day12-GenericsAndDataStructures" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day13-GenericsAndSerialization" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day01-JavaConcepts" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaConcepts/Day03-JavaConcepts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Task11-" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day02-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day03-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day04-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day05-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day06-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day07-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day08-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day09-JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day14-GenericsAndThread" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day15-SerializationAndConcurrency" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day16-Multithreading" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day17" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day18" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day19" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day20" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day21" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day22" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day23" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day24" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day25-FileIO" />
-      <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day26-FileHandlingTasks" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task01-KotlinTourPractice" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task02-Basics" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task03-KotlinBootcampByUdacity" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task04-KotlinBootcampByAndroidDevs" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task05-KotlinConcepts" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task06-ClassesAndObjects" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task07-KotlinByExample" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task08-Koans" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task09-Collections" />
+      <excludeFolder url="file://$MODULE_DIR$/KotlinConcepts/Task10-ScopeFunctionsAndTimeMeasurement" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
