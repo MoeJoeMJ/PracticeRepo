@@ -3,9 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/KotlinConcepts/Task11-" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/AndroidDevelopment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dummy" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day02-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts/Day04-JavaConcepts" />
       <excludeFolder url="file://$MODULE_DIR$/JavaConcepts" />
